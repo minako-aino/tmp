@@ -26,5 +26,5 @@ sudo iptables -A PREROUTING -t nat -p tcp -m multiport --dports 80 -j REDIRECT -
 sudo iptables -A OUTPUT -p tcp --dport 25 -j REJECT
 
 # drop all - basic
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
+#iptables -P INPUT DROP
+#iptables -P FORWARD DROP
