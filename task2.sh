@@ -28,4 +28,3 @@ sudo iptables -A OUTPUT -p tcp --dport 25 -j REJECT
 # drop all - basic
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
-iptables -P OUTPUT DROP
